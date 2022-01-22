@@ -1,0 +1,210 @@
+    1  ls
+    2  cd Downloads/
+    3  ls
+    4  cd Downloads/
+    5  ls
+    6  sudo apt install code_1.63.2-1639562499_amd64.deb
+    7  sudo apt dpkg -i code_1.63.2-1639562499_amd64.deb
+    8  sudo dpkg -i code_1.63.2-1639562499_amd64.deb
+    9  code .
+   10  ls
+   11  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   12  curl
+   13  sudo apt install curl 
+   14  curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+   15  ls
+   16  source ~/.profile 
+   17  curl http://icanhazip.com
+   18  sudo apt-get install mysql-server
+   19  mysql_secure_installation
+   20  sudo apt-get install mysql-server
+   21  clear
+   22  sudo service mysql stop
+   23  sudo mysqld_safe --skip-grant-tables --skip-syslog --skip-networking
+   24  mysql -u root
+   25  sudo mysqld_safe --skip-grant-tables
+   26  udo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+   27  sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+   28  sudo apt-get install mysql-server
+   29  sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+   30  sudo apt-get install php libapache2-mod-php  php-mysql
+   31  nvm
+   32  nvm install node
+   33  nvm list
+   34  sudo apt update
+   35  sudo apt upgrade
+   36  sudo apt install git
+   37  git 
+   38  git config --global user.name "chirchir7370@gmail.com"
+   39  git config --global user.email "chirchir7370@gmail.com"
+   40  git config --global user.name "chirchir"
+   41  ls
+   42  git config --global color.ui true
+   43  ssh-keygen -t rsa -C "chirchir7370@gmail.com"
+   44  pbcopy
+   45  bcopy
+   46  cat /home/ekchirchir/.ssh/id_rsa.pub
+   47  ssh -T git@github.com
+   48  sudo apt-get install apache2
+   49  sudo apache2ctl configtest
+   50  sudo code /etc/apache2/apache2.conf
+   51  sudo nano /etc/apache2/apache2.conf
+   52  sudo apache2ctl configtest
+   53  sudo systemctl restart apache2
+   54  sudo ufw app list
+   55  sudo ufw app info "Apache Full"
+   56  sudo ufw allow in "Apache Full"
+   57  ls
+   58  mkdir PROJECTS
+   59  cd PROJECTS/
+   60  mkdir BACKUP
+   61  cd BACKUP/
+   62  code .
+   63  sudo apt install openjdk-8-jdk
+   64  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   65  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+   66  sudo apt install jenkins
+   67  sudo apt update
+   68  sudo apt install jenkins
+   69  sudo systemctl status jenkins
+   70  sudo ufw allow 8080
+   71  sudo ufw status
+   72  sudo ufw enable
+   73  sudo ufw status
+   74  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   75  689540a86e9144f494a6738f5c1e1a80689540a86e9144f494a6738f5c1e1a80
+   76  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   77  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   78  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   79  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+   80  sudo apt update
+   81  apt-cache policy docker-ce
+   82  sudo apt install docker-ce
+   83  sudo systemctl status docker
+   84  sudo usermod -aG docker ${USER}
+   85  su - ${USER}
+   86  id -nG
+   87  docker
+   88  nvm list
+   89  sudo apt install gnome-control-center
+   90  gnome-control-center
+   91  ls
+   92  cd PROJECTS/
+   93  LS
+   94  ls
+   95  cd BACKUP/
+   96  ls
+   97  cat backup.txt 
+   98  cat 'questions to asks JP' 
+   99  code .
+  100  java -v
+  101  java - v
+  102  java -version
+  103  ls
+  104  cd ../
+  105  ls
+  106  mkdir development
+  107  cd development/
+  108  ls
+  109  cd ../
+  110  mkdir learning
+  111  cd learning/
+  112  ls
+  113  mkdir objects
+  114  cd objects/
+  115  code .
+  116  node main.js 
+  117  ls
+  118  node index.js 
+  119  node obj1.js 
+  120  clear
+  121  node obj1.js 
+  122  node call.js 
+  123  CLEAR
+  124  clear
+  125  CLEAR
+  126  node call.js 
+  127  clear
+  128  node call.js 
+  129  node index.js 
+  130  node testobject.js 
+  131  clear
+  132  node testobject.js 
+  133  ls
+  134  node testobject.js 
+  135  ls
+  136  node testobject.js 
+  137  gsettings set org.gnome.settings-daemon.plugins.orientation active false
+  138  ls
+  139  cd PROJECTS/
+  140  LS
+  141  ls
+  142  mkdir githack
+  143  cd githack/
+  144  git help config
+  145  git help rebase
+  146  git status
+  147  ls
+  148  git clone https://github.com/chirchir12/githack.git .
+  149  ls
+  150  git branch 
+  151  git branch  list
+  152  git branch  
+  153  git branch  -d list
+  154  ls
+  155  git branch help
+  156  git branch  -d help
+  157  git status
+  158  git fetch
+  159  code .
+  160  git branch 
+  161  git log
+  162  git log origin/main 
+  163  git fetch --dry
+  164  git fetch --dry-run 
+  165  git remote -v
+  166  git branch -r
+  167  git tag
+  168  git remote -v
+  169  git checkout -b testbranch origin/main
+  170  ls
+  171  git checkout main
+  172  ls
+  173  git checkout testbranch 
+  174  code .
+  175  git branch -r
+  176  git checkout main 
+  177  git branch -r
+  178  git status
+  179  git checkout testbranch 
+  180  git checkout
+  181  git checkout main
+  182  git merge testbranch 
+  183  git remote
+  184  git remote 
+  185  git status
+  186  git fetch remote
+  187  git fetch origin
+  188  git remote
+  189  git branch -r
+  190  git log --oneline testbranch..origin/test-case-2004
+  191  git branch -r
+  192  git branch
+  193  git checkout -b rmoteBra
+  194  git merger origin/test-case-2004
+  195  git merge origin/test-case-2004
+  196  ls
+  197  git checkout main
+  198  ls
+  199  git merge rmoteBra 
+  200  git log --oneline
+  201  git log --oneline main..rmoteBra 
+  202  ls
+  203  git status
+  204  ls
+  205  git log --oneline main..origin/main
+  206  git push 
+  207  git branch -v
+  208  git remote show origin // show all the remote branches
+  209  history
+  210  history > history.txt
