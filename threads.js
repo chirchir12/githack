@@ -7,3 +7,5 @@ const obj  = {
 function dest(){
     return 'hjello there'
 }
+
+console.log('hello there ')
