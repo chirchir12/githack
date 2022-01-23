@@ -13,3 +13,7 @@ console.log('hello there ')
 function rebase(){
     return 'rebased'
 }
+
+function test(){
+    return 'tested'
+}
