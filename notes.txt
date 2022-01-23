@@ -1,3 +1,6 @@
 1. when a repo is cloned, git create a default remote called origin. that point to your forked in github. not the original repo it was forked from. 
 2. to keeep track of the original repo, we need to create another remote called upstream that points to the origin repo
 3. git stash drop <stash key> to drop outdated stashes
+4. rebase is adding the commits of one branch that is ahead to another one 
+5. you rebase into another branch 
+6. from your feature branch, git rebase dev
