@@ -4,3 +4,4 @@
 4. rebase is adding the commits of one branch that is ahead to another one 
 5. you rebase into another branch 
 6. from your feature branch, git rebase dev
+7. with git rebase <branch ahead> you get clean git history 
