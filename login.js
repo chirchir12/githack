@@ -7,3 +7,7 @@ function login(){
 function logout(){
     return false
 }
+
+function register(){
+    return 'registered'
+}
