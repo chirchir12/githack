@@ -9,3 +9,7 @@ function dest(){
 }
 
 console.log('hello there ')
+
+function rebase(){
+    return 'rebased'
+}
