@@ -17,3 +17,9 @@ function rebase(){
 function test(){
     return 'tested'
 }
+
+function callback(func){
+    if(true){
+        func(true)
+    }
+}
